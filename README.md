@@ -10,9 +10,6 @@ npm install
 npm link
 ```
 
-```bash
-### games
-```
 ###  brain-even
 
 #### Starting the game
