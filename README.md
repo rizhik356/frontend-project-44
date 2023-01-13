@@ -13,6 +13,8 @@
 ## Setup
 
 ```bash
+git clone https://github.com/rizhik356/frontend-project-44.git
+cd frontend-project-44
 make install
 npm install
 npm link
