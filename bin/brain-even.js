@@ -1,13 +1,5 @@
 #!/usr/bin/env node
-import gameLogic from '../src/index.js';
 
-const getRandomInt = (min, max) => Math.floor(Math.random() * (max - min + 1)) + min;
-const gameTask = 'Answer "yes" if the number is even, otherwise answer "no".';
+import getBrainEven from '../src/games/even.js';
 
-const getStartGame = () => {
-  const question = getRandomInt(1, 100);
-  const answer = ((question % 2 === 0) ? 'yes' : 'no');
-  return [question, answer];
-};
-
-gameLogic(gameTask, getStartGame);
+getBrainEven();
