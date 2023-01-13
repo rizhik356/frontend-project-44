@@ -10,7 +10,9 @@ npm install
 npm link
 ```
 
-### * brain-even
+###  brain-even
+
+#### Starting the game
 
 ```bash
 brain-even
@@ -18,7 +20,9 @@ brain-even
 
 <a href="https://asciinema.org/a/CjvLqEz7NLIvV8Fmbks5kYDpL" target="_blank"><img src="https://asciinema.org/a/CjvLqEz7NLIvV8Fmbks5kYDpL.svg" /></a>
 
-### * brain-calc
+###  brain-calc
+
+#### Starting the game
 
 ```bash
 brain-calc
@@ -26,7 +30,9 @@ brain-calc
 
 <a href="https://asciinema.org/a/VPjyl2Xoptuggif7E3fQUCi91" target="_blank"><img src="https://asciinema.org/a/VPjyl2Xoptuggif7E3fQUCi91.svg" /></a>
 
-### * brain-gcd
+###  brain-gcd
+
+#### Starting the game
 
 ```bash
 brain-gcd
@@ -34,7 +40,9 @@ brain-gcd
 
 <a href="https://asciinema.org/a/5mVQIEy3mwcxbz99rEYHieELj" target="_blank"><img src="https://asciinema.org/a/5mVQIEy3mwcxbz99rEYHieELj.svg" /></a>
 
-### * brain-progression
+###  brain-progression
+
+#### Starting the game
 
 ```bash
 brain-gcd
