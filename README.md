@@ -28,7 +28,7 @@ npm link
 brain-even
 ```
 
-<a href="https://asciinema.org/a/CjvLqEz7NLIvV8Fmbks5kYDpL" target="_blank"><img src="https://asciinema.org/a/CjvLqEz7NLIvV8Fmbks5kYDpL.svg" /></a>
+<a href="https://asciinema.org/a/UXjhZlbyOVZJsFs9V5C5DQ3DF" target="_blank"><img src="https://asciinema.org/a/UXjhZlbyOVZJsFs9V5C5DQ3DF.svg" /></a>
 
 ##  brain-calc
 
