@@ -6,6 +6,9 @@ const gameTask = 'Answer "yes" if given number is prime. Otherwise answer "no"';
 const getStartGame = () => {
   const question = getRandomInt(1, 50);
   let answer = 'no';
+  if (question === 2) {
+    answer = 'yes';
+  }
   for (let i = 2; i < question; i += 1) {
     if (question % i === 0) {
       answer = 'no';
