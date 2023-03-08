@@ -1,10 +1,11 @@
 import gameLogic from '../index.js';
 
-const getRandomInt = (min, max) => Math.floor(Math.random() * (max - min + 1)) + min;
+import getRandomNumber from '../getRandom.js';
+
 const gameTask = 'Answer "yes" if given number is prime. Otherwise answer "no"';
 
-const getStartGame = () => {
-  const question = getRandomInt(1, 50);
+const getGameRules = () => {
+  const question = getRandomNumber(1, 50);
   let answer = 'no';
   if (question === 2) {
     answer = 'yes';
@@ -21,5 +22,5 @@ const getStartGame = () => {
 };
 
 export default () => {
-  gameLogic(gameTask, getStartGame);
+  gameLogic(gameTask, getGameRules);
 };

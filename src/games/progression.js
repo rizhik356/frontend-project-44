@@ -1,13 +1,14 @@
 import gameLogic from '../index.js';
 
-const getRandomInt = (min, max) => Math.floor(Math.random() * (max - min + 1)) + min;
+import getRandomNumber from '../getRandom.js';
+
 const gameTask = 'What number is missing in the progression?';
 
-const getStartGame = () => {
-  const randomStringLength = getRandomInt(5, 10);
-  const randomQuestion = getRandomInt(0, randomStringLength);
-  let firstRandomNumber = getRandomInt(1, 50);
-  const progressionLength = getRandomInt(1, 10);
+const getGameRules = () => {
+  const randomStringLength = getRandomNumber(5, 10);
+  const randomQuestion = getRandomNumber(0, randomStringLength);
+  let firstRandomNumber = getRandomNumber(1, 50);
+  const progressionLength = getRandomNumber(1, 10);
   const questionArr = [];
   let answer = 0;
   for (let i = 0; i <= randomStringLength; i += 1) {
@@ -27,5 +28,5 @@ const getStartGame = () => {
 };
 
 export default () => {
-  gameLogic(gameTask, getStartGame);
+  gameLogic(gameTask, getGameRules);
 };
